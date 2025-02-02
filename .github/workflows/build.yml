@@ -10,7 +10,7 @@ jobs:
   build:
     environment: 
       name: production
-      url: https://hydephp.com
+      url: https://alixcan.net
     concurrency: production
 
     runs-on: ubuntu-24.04
@@ -33,7 +33,7 @@ jobs:
           ${{ runner.os }}-php-
 
     - name: Create dotenv
-      run: echo "SITE_URL=https://hydephp.com/" > .env
+      run: echo "SITE_URL=https://alixcan.net/" > .env
     
     - name: Add Torchlight token
       run: echo "TORCHLIGHT_TOKEN=${{ secrets.TORCHLIGHT_TOKEN }}" >> .env
@@ -66,11 +66,11 @@ jobs:
     - name: Run the Hyde Builder
       run: php hyde build --pretty-urls --run-prettier --no-interaction
 
-    - name: Create .nojekyll
-      run: touch docs/.nojekyll
+#    - name: Create .nojekyll
+#      run: touch docs/.nojekyll
       
     - name: Create CNAME
-      run: echo "hydephp.com" > docs/CNAME
+      run: echo "alixcan.net" > docs/CNAME
 
     - name: Copy favicon to site root
       run: cp docs/media/favicon.ico docs/favicon.ico
