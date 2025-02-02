@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bir Başka Developer Bloğu | AlixcaN.Net - Blog Posts - Page 2</title>
+
+
+
+<meta name="twitter:title" content="Bir Başka Developer Bloğu | AlixcaN.Net - Blog Posts - Page 2">
+<meta property="og:title" content="Bir Başka Developer Bloğu | AlixcaN.Net - Blog Posts - Page 2">
+
+
+<meta name="author" content="AlixcaN">
+<meta name="twitter:creator" content="@AlixcaNN">
+<meta name="description" content="Bir Başka Developer Bloğu">
+<meta name="keywords" content="Laravel, Blog, Php, Css, Development, Architecture, Sql, Tailwind, Alpine, Vue, Js">
+<meta name="generator" content="HydePHP v1.7.5">
+<meta property="og:site_name" content="Bir Başka Developer Bloğu | AlixcaN.Net">
+
+
+
+
+<style>[x-cloak] {display: none !important}</style>
+
+
+    <link rel="stylesheet" href="../media/app.css?v=3bafaae2364e4231d6ca71bd5d129387">
+
+
+
+
+
+    
+    <meta id="meta-color-scheme" name="color-scheme" content="light">
+    <script>if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark'); document.getElementById('meta-color-scheme').setAttribute('content', 'dark');} else { document.documentElement.classList.remove('dark') } </script>
+
+
+
+
+
+
+</head>
+<body id="app" class="flex flex-col min-h-screen overflow-x-hidden dark:bg-gray-900 dark:text-white" x-data="{ navigationOpen: false }" x-on:keydown.escape="navigationOpen = false;">
+    <a href="#content" id="skip-to-content" class="sr-only focus:not-sr-only bg-black border-4 border-yellow-400 focus:absolute focus:mt-2 focus:mx-auto focus:p-2 focus:w-64 h-auto left-0 overflow-auto right-0 rounded-md text-center text-lg text-white top-auto z-50 ">Skip to content</a>    <nav aria-label="Main navigation" id="main-navigation" class="flex flex-wrap items-center justify-between p-4 shadow-lg sm:shadow-xl md:shadow-none dark:bg-gray-800">
+    <div class="flex flex-grow items-center flex-shrink-0 text-gray-700 dark:text-gray-200">
+        <a href="../index.html" class="font-bold px-4" aria-label="Home page">
+    Bir Başka Developer Bloğu | AlixcaN.Net
+</a>
+        <div class="ml-auto">
+            <button @click="toggleTheme" class="theme-toggle-button flex items-center px-2 py-1 hover:text-gray-700 dark:text-gray-200" title="Toggle theme">
+        <span class="sr-only">Toggle dark theme</span>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 hidden dark:block" fill="#FFFFFF" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+        <svg width="1.25rem" height="1.25rem" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+    </button>
+        </div>
+    </div>
+
+    <div class="block md:hidden">
+        <button id="navigation-toggle-button" class="flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200"
+                aria-label="Toggle navigation menu" @click="navigationOpen = ! navigationOpen">
+            <svg id="open-main-navigation-menu-icon" title="Open Navigation Menu" class="dark:fill-gray-200"
+                 xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                 x-show="! navigationOpen" style="display: block;"
+            ><title>Open Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            <svg id="close-main-navigation-menu-icon" title="Close Navigation Menu" class="dark:fill-gray-200"
+                 xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"
+                 x-show="navigationOpen" style="display: none;"
+            ><title>Close Menu</title>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <div id="main-navigation-links" class="w-full x-uncloak-md md:flex flex-grow md:flex-grow-0 md:items-center md:w-auto px-6 -mx-4 border-t mt-3 pt-3 md:border-none md:mt-0 md:py-0 border-gray-200 dark:border-gray-700"
+         :class="navigationOpen ? '' : 'hidden'" x-cloak>
+        <ul aria-label="Navigation links" class="md:flex-grow md:flex justify-end">
+                            <li class="md:mx-2">
+                                            <a href="../index.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Anasayfa</a>                                    </li>
+                            <li class="md:mx-2">
+                                            <a href="../posts.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Yazılar</a>                                    </li>
+                            <li class="md:mx-2">
+                                            <a href="../hakkimda.html"  class="block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100">Hakkımda</a>                                    </li>
+                    </ul>
+    </div>
+</nav>
+    <section>
+        
+
+    <main id="content" class="mx-auto max-w-7xl py-12 px-8">
+        <header class="lg:mb-12 xl:mb-16">
+            <h1 class="text-3xl text-left leading-10 tracking-tight font-extrabold sm:leading-none mb-8 md:mb-12 md:text-4xl md:text-center lg:text-5xl text-gray-700 dark:text-gray-200">
+                Yazılar
+            </h1>
+        </header>
+
+        <div id="post-feed" class="max-w-5xl mx-auto">
+            <article class="mt-4 mb-8 flex gap-5 flex-col md:flex-row" itemscope itemtype="https://schema.org/Article">
+
+
+
+
+
+
+
+    <meta itemprop="identifier" content="Deneme/asd copy 4">
+
+    
+        <figure>
+        <img loading="lazy" class="max-w-[250px] mx-auto rounded-xl object-cover" src="https://alixcan.net/storage/4/conversions/01J6YHWCZNSXNP8HNDRF5KCDTP-thumb.webp" alt="SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs">
+    </figure>
+    
+    <div>
+        <header>
+            <a href="../posts/Deneme/asd copy 4.html" class="block w-fit">
+                <h2 class="text-2xl font-bold text-gray-700 transition-colors duration-75 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white">
+                    SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs
+                </h2>
+            </a>
+        </header>
+
+        <footer>
+                            <span class="opacity-75">
+
+                                    <span itemprop="dateCreated datePublished">26 Oca, 13:38 Pazar</span> | 
+            </span>
+                                                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span class="opacity-75">Yazar:</span>
+                    <span itemprop="name">
+                        AlixcaN
+                    </span>
+                </span>
+                                                    <span itemprop="category" itemscope itemtype="https://schema.org/category">
+                    <span class="opacity-75"></span>
+                    <span itemprop="name">
+                        laravel
+                    </span>
+                </span>
+                        </footer>
+
+                    <section role="doc-abstract" aria-label="Excerpt">
+                <p class="my-1 leading-relaxed">
+                    Tailwindcss ve Laravel Blade Componentları ile SAP Tablo ve Ana veri Ekran Tasarımları
+                </p>
+            </section>
+        
+        <footer>
+            <a href="../posts/Deneme/asd copy 4.html" class="font-medium text-indigo-500 hover:underline">
+                Devamını Oku
+            </a>
+        </footer>
+    </div>
+</article>    <article class="mt-4 mb-8 flex gap-5 flex-col md:flex-row" itemscope itemtype="https://schema.org/Article">
+
+
+
+
+
+
+
+    <meta itemprop="identifier" content="Deneme/asd copy 5">
+
+    
+        <figure>
+        <img loading="lazy" class="max-w-[250px] mx-auto rounded-xl object-cover" src="https://alixcan.net/storage/4/conversions/01J6YHWCZNSXNP8HNDRF5KCDTP-thumb.webp" alt="SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs">
+    </figure>
+    
+    <div>
+        <header>
+            <a href="../posts/Deneme/asd copy 5.html" class="block w-fit">
+                <h2 class="text-2xl font-bold text-gray-700 transition-colors duration-75 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white">
+                    SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs
+                </h2>
+            </a>
+        </header>
+
+        <footer>
+                            <span class="opacity-75">
+
+                                    <span itemprop="dateCreated datePublished">26 Oca, 13:38 Pazar</span> | 
+            </span>
+                                                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span class="opacity-75">Yazar:</span>
+                    <span itemprop="name">
+                        AlixcaN
+                    </span>
+                </span>
+                                                    <span itemprop="category" itemscope itemtype="https://schema.org/category">
+                    <span class="opacity-75"></span>
+                    <span itemprop="name">
+                        laravel
+                    </span>
+                </span>
+                        </footer>
+
+                    <section role="doc-abstract" aria-label="Excerpt">
+                <p class="my-1 leading-relaxed">
+                    Tailwindcss ve Laravel Blade Componentları ile SAP Tablo ve Ana veri Ekran Tasarımları
+                </p>
+            </section>
+        
+        <footer>
+            <a href="../posts/Deneme/asd copy 5.html" class="font-medium text-indigo-500 hover:underline">
+                Devamını Oku
+            </a>
+        </footer>
+    </div>
+</article>    <article class="mt-4 mb-8 flex gap-5 flex-col md:flex-row" itemscope itemtype="https://schema.org/Article">
+
+
+
+
+
+
+
+    <meta itemprop="identifier" content="Deneme/asd copy 6">
+
+    
+        <figure>
+        <img loading="lazy" class="max-w-[250px] mx-auto rounded-xl object-cover" src="https://alixcan.net/storage/4/conversions/01J6YHWCZNSXNP8HNDRF5KCDTP-thumb.webp" alt="SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs">
+    </figure>
+    
+    <div>
+        <header>
+            <a href="../posts/Deneme/asd copy 6.html" class="block w-fit">
+                <h2 class="text-2xl font-bold text-gray-700 transition-colors duration-75 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white">
+                    SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs
+                </h2>
+            </a>
+        </header>
+
+        <footer>
+                            <span class="opacity-75">
+
+                                    <span itemprop="dateCreated datePublished">26 Oca, 13:38 Pazar</span> | 
+            </span>
+                                                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span class="opacity-75">Yazar:</span>
+                    <span itemprop="name">
+                        AlixcaN
+                    </span>
+                </span>
+                                                    <span itemprop="category" itemscope itemtype="https://schema.org/category">
+                    <span class="opacity-75"></span>
+                    <span itemprop="name">
+                        laravel
+                    </span>
+                </span>
+                        </footer>
+
+                    <section role="doc-abstract" aria-label="Excerpt">
+                <p class="my-1 leading-relaxed">
+                    Tailwindcss ve Laravel Blade Componentları ile SAP Tablo ve Ana veri Ekran Tasarımları
+                </p>
+            </section>
+        
+        <footer>
+            <a href="../posts/Deneme/asd copy 6.html" class="font-medium text-indigo-500 hover:underline">
+                Devamını Oku
+            </a>
+        </footer>
+    </div>
+</article>    <article class="mt-4 mb-8 flex gap-5 flex-col md:flex-row" itemscope itemtype="https://schema.org/Article">
+
+
+
+
+
+
+
+    <meta itemprop="identifier" content="Deneme/asd copy 7">
+
+    
+        <figure>
+        <img loading="lazy" class="max-w-[250px] mx-auto rounded-xl object-cover" src="https://alixcan.net/storage/4/conversions/01J6YHWCZNSXNP8HNDRF5KCDTP-thumb.webp" alt="SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs">
+    </figure>
+    
+    <div>
+        <header>
+            <a href="../posts/Deneme/asd copy 7.html" class="block w-fit">
+                <h2 class="text-2xl font-bold text-gray-700 transition-colors duration-75 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white">
+                    SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs
+                </h2>
+            </a>
+        </header>
+
+        <footer>
+                            <span class="opacity-75">
+
+                                    <span itemprop="dateCreated datePublished">26 Oca, 13:38 Pazar</span> | 
+            </span>
+                                                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span class="opacity-75">Yazar:</span>
+                    <span itemprop="name">
+                        AlixcaN
+                    </span>
+                </span>
+                                                    <span itemprop="category" itemscope itemtype="https://schema.org/category">
+                    <span class="opacity-75"></span>
+                    <span itemprop="name">
+                        laravel
+                    </span>
+                </span>
+                        </footer>
+
+                    <section role="doc-abstract" aria-label="Excerpt">
+                <p class="my-1 leading-relaxed">
+                    Tailwindcss ve Laravel Blade Componentları ile SAP Tablo ve Ana veri Ekran Tasarımları
+                </p>
+            </section>
+        
+        <footer>
+            <a href="../posts/Deneme/asd copy 7.html" class="font-medium text-indigo-500 hover:underline">
+                Devamını Oku
+            </a>
+        </footer>
+    </div>
+</article>    <article class="mt-4 mb-8 flex gap-5 flex-col md:flex-row" itemscope itemtype="https://schema.org/Article">
+
+
+
+
+
+
+
+    <meta itemprop="identifier" content="Deneme/asd copy 8">
+
+    
+        <figure>
+        <img loading="lazy" class="max-w-[250px] mx-auto rounded-xl object-cover" src="https://alixcan.net/storage/4/conversions/01J6YHWCZNSXNP8HNDRF5KCDTP-thumb.webp" alt="SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs">
+    </figure>
+    
+    <div>
+        <header>
+            <a href="../posts/Deneme/asd copy 8.html" class="block w-fit">
+                <h2 class="text-2xl font-bold text-gray-700 transition-colors duration-75 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white">
+                    SAP Tablo ve Anaveri Ekranları Tasarımı | Laravel + Tailwindcss + AlpineJs
+                </h2>
+            </a>
+        </header>
+
+        <footer>
+                            <span class="opacity-75">
+
+                                    <span itemprop="dateCreated datePublished">26 Oca, 13:38 Pazar</span> | 
+            </span>
+                                                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span class="opacity-75">Yazar:</span>
+                    <span itemprop="name">
+                        AlixcaN
+                    </span>
+                </span>
+                                                    <span itemprop="category" itemscope itemtype="https://schema.org/category">
+                    <span class="opacity-75"></span>
+                    <span itemprop="name">
+                        laravel
+                    </span>
+                </span>
+                        </footer>
+
+                    <section role="doc-abstract" aria-label="Excerpt">
+                <p class="my-1 leading-relaxed">
+                    Tailwindcss ve Laravel Blade Componentları ile SAP Tablo ve Ana veri Ekran Tasarımları
+                </p>
+            </section>
+        
+        <footer>
+            <a href="../posts/Deneme/asd copy 8.html" class="font-medium text-indigo-500 hover:underline">
+                Devamını Oku
+            </a>
+        </footer>
+    </div>
+</article>
+<nav aria-label="Page navigation example" class="mx-auto">
+    <ul class="inline-flex -space-x-px text-sm">
+
+        <li>
+
+                        <a href="../posts/page-1.html" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">&#8249;</a>
+                </li>
+
+
+
+
+
+
+
+        <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
+        </li>
+        <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+        </li>
+        <li>
+            <a href="#" aria-current="page" class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">3</a>
+        </li>
+        <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+        </li>
+        <li>
+            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+        </li>
+
+        <li>
+                        <a href="../posts/page-3.html" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">&#8250;</a>
+
+                </li>
+
+
+
+
+    </ul>
+</nav>
+
+<nav class="flex justify-center mt-4">
+            <a href="../posts/page-1.html">&#8249;</a>    
+    <div class="px-2">
+                                    <a href="../posts/page-1.html">1</a>                                                <strong>2</strong>
+                                                <a href="../posts/page-3.html">3</a>                                                <a href="../posts/page-4.html">4</a>                                                <a href="../posts/page-5.html">5</a>                                                <a href="../posts/page-6.html">6</a>                                                <a href="../posts/page-7.html">7</a>                                                <a href="../posts/page-8.html">8</a>                                                <a href="../posts/page-9.html">9</a>                                                <a href="../posts/page-10.html">10</a>                                                <a href="../posts/page-11.html">11</a>                                                <a href="../posts/page-12.html">12</a>                                                <a href="../posts/page-13.html">13</a>                                                <a href="../posts/page-14.html">14</a>                                                <a href="../posts/page-15.html">15</a>                        </div>
+
+            <a href="../posts/page-3.html">&#8250;</a>    </nav>        </div>
+    </main>
+
+    </section>
+
+    <footer aria-label="Page footer" class="flex py-4 px-6 w-full text-center mt-auto bg-slate-100 dark:bg-gray-800">
+        <div class="prose dark:prose-invert text-center mx-auto">
+            <p>Site proudly built with <a href="https://github.com/hydephp/hyde">HydePHP</a> 🎩</p>
+
+        </div>
+        <a href="#app" aria-label="Go to top of page" class="float-right">
+            <button title="Scroll to top">
+                <svg width="1.5rem" height="1.5rem" role="presentation" class="fill-current text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+                </svg>
+            </button>
+        </a>
+    </footer>
+
+    <script defer src="../media/app.js?v=a6710bdca6a4b88a617d1896e81adb81"></script>
+
+
+
+
+<script>
+    function toggleTheme() {
+        if (localStorage.getItem('color-theme') === 'dark' || !('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem('color-theme', 'light');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'light');
+        } else {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem('color-theme', 'dark');
+            document.getElementById('meta-color-scheme').setAttribute('content', 'dark');
+        }
+    }
+</script>
+
+
+
+
+
+
+</body>
+</html>

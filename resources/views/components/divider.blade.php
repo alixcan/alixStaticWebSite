@@ -1,0 +1,1 @@
+<hr class="border-[.1px] border-gray-200/80 my-1 mx-auto w-10/12">
